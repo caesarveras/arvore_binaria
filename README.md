@@ -59,6 +59,7 @@ Ao executar o programa, você verá o seguinte menu:
 Escolha uma opção:
 ```
 Você pode, por exemplo:
+```
 
 Digitar 1 e inserir alguns números (ex: 50, 30, 70, 20, 40, 60, 80).
 
@@ -69,8 +70,10 @@ Digitar 2 e remover um nó (ex: 30).
 Digitar 4 novamente para ver a árvore após a remoção.
 
 Digitar 0 para encerrar o programa.
-
+```
 ## Considerações Adicionais
-Tratamento de Duplicatas: A implementação atual não insere valores duplicados na árvore. Se um valor já existe, a função insertNode simplesmente retorna a raiz sem fazer alterações.
+Tratamento de Duplicatas: 
+A implementação atual não insere valores duplicados na árvore. Se um valor já existe, a função insertNode simplesmente retorna a raiz sem fazer alterações.
 
-Gerenciamento de Memória: O programa faz uso de malloc para alocar memória para novos nós e free para liberar a memória dos nós removidos e da árvore completa ao encerrar, prevenindo vazamentos de memória.
+Gerenciamento de Memória: 
+O programa faz uso de malloc para alocar memória para novos nós e free para liberar a memória dos nós removidos e da árvore completa ao encerrar, prevenindo vazamentos de memória.
